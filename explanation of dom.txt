@@ -1,0 +1,8 @@
+DOM manipulation
+
+DOM: Document object model
+The DOM is used to connect webpages to scripts like JavaScript
+For each HTML box, there is an object in the DOM that we can access
+and interact with.
+The Html webpage content is stored in the DOM which can then be accessed and
+manipulated by javascript.
