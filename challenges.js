@@ -39,6 +39,8 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     if (lastDice1 === 6 && dice1 ===6 || lastDice2 === 6 && dice2 ===6){
       scores[activePlayer] = 0
       document.querySelector('#score-' + activePlayer).textContent = '0';
+      console.log('dice1', dice1, 'dice2', dice2);
+      console.log('lastdice1', lastDice1, 'lastdice2', lastDice2);
       lastDice1 = -1
       lastDice2 = -1
       nextPlayer();

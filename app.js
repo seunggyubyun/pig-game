@@ -110,7 +110,6 @@ function nextPlayer() {
   //document.querySelector('.player-0-panel').classList.remove('active');
   //document.querySelector('.player-1-panel').classList.add('active');
 
-  document.querySelector('.dice1').style.disply = 'none';
 }
 
 document.querySelector('.btn-new').addEventListener('click', init);
